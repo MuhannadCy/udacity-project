@@ -1,0 +1,13 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "type": "eventGridTrigger",
+      "name": "event",
+      "direction": "in",
+	  "eventHubName": "muhanneventhub", 
+	  "connection": "Endpoint=sb://muhanneventhub.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=oVUimRyiozapXli5arGIpAYMIHdwGHb91t9peTPUy/s="
+    }
+  ]
+}
+
